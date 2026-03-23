@@ -1,0 +1,1065 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DITEC - Soluções em Tecnologia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo-container">
+      <img src="image copy.png" alt="DITEC Logo">
+    </div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero fade-in">
+    <h1>Soluções em Tecnologia<br> para o seu negócio</h1>
+    <button>Fale Conosco</button>
+  </div>
+</header>
+
+<section class="section fade-in" id="sobre">
+  <h2>Sobre a DITEC</h2>
+  <p>
+    A DITEC é especializada em soluções tecnológicas, oferecendo suporte técnico,
+    manutenção de equipamentos e serviços de TI.
+  </p>
+</section>
+
+<section class="section grid fade-in">
+  <div class="card">
+    <h3>Missão</h3>
+    <p>Oferecer soluções eficientes e inovadoras.</p>
+  </div>
+
+  <div class="card">
+    <h3>Visão</h3>
+    <p>Ser referência em serviços de TI.</p>
+  </div>
+
+  <div class="card">
+    <h3>Valores</h3>
+    <p>Compromisso, qualidade e inovação.</p>
+  </div>
+</section>
+
+<section class="section service-showcase fade-in" id="servicos">
+  <h2>Nossos Serviços</h2>
+  <div class="service-container">
+    <div class="service-image">
+      <div class="image-stack">
+        <img class="stack-img bg1" src="servico-bg1.jpg" alt="background">
+        <img class="stack-img bg2" src="servico-bg2.jpg" alt="background">
+        <img class="stack-img main" id="service-img" src="servico1.jpg" alt="Serviço 1">
+      </div>
+    </div>
+    <div class="service-details">
+      <div class="service-tabs" id="service-tabs">
+        <button class="tab active" data-index="0">Manutenção</button>
+        <button class="tab" data-index="1">Redes</button>
+        <button class="tab" data-index="2">Suporte</button>
+        <button class="tab" data-index="3">Consultoria</button>
+      </div>
+      <div class="service-slider" id="service-slider">
+        <article class="service-card active" data-img="servico1.jpg">
+          <h3>Manutenção de Computadores</h3>
+          <p>Diagnóstico completo, limpeza de hardware, formatação e otimização.</p>
+        </article>
+        <article class="service-card" data-img="servico2.jpg">
+          <h3>Instalação de Redes</h3>
+          <p>Projetos de redes cabeadas e Wi-Fi, cabeamento estruturado e segurança.</p>
+        </article>
+        <article class="service-card" data-img="servico3.jpg">
+          <h3>Suporte Técnico</h3>
+          <p>Atendimento remoto e presencial para resolução rápida de incidentes.</p>
+        </article>
+        <article class="service-card" data-img="servico4.jpg">
+          <h3>Consultoria em TI</h3>
+          <p>Planejamento estratégico, redução de custos e escolha de tecnologias.</p>
+        </article>
+      </div>
+      <div class="service-controls">
+        <button id="service-prev" aria-label="Serviço anterior">‹</button>
+        <button id="service-next" aria-label="Próximo serviço">›</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section service-home fade-in" id="servico-domicilio">
+  <div class="service-home-container">
+    <div class="service-home-image">
+      <img src="servico-domicilio.jpg" alt="Serviço a domicílio">
+    </div>
+    <div class="service-home-text">
+      <h2>Serviço a Domicílio</h2>
+      <p>Levamos nosso suporte e manutenção até sua casa ou empresa, com segurança, rapidez e comodidade. Agende um técnico e nosso time resolve seu problema no local, sem deslocamento para você.</p>
+      <ul>
+        <li>Atendimento agendado em sua casa ou escritório</li>
+        <li>Suporte técnico presencial completo</li>
+        <li>Manutenção preventiva e corretiva</li>
+        <li>Configuração de redes e equipamentos</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section logo-carousel fade-in" id="parceiros">
+  <h2>Marcas Parceiras</h2>
+  <div class="carousel-wrapper">
+    <div class="carousel-track">
+      <div class="carousel-item"><img src="logo1.png" alt="Marca 1"></div>
+      <div class="carousel-item"><img src="logo2.png" alt="Marca 2"></div>
+      <div class="carousel-item"><img src="logo3.png" alt="Marca 3"></div>
+      <div class="carousel-item"><img src="logo4.png" alt="Marca 4"></div>
+      <div class="carousel-item"><img src="logo5.png" alt="Marca 5"></div>
+      <div class="carousel-item"><img src="logo6.png" alt="Marca 6"></div>
+      <div class="carousel-item"><img src="logo1.png" alt="Marca 1"></div>
+      <div class="carousel-item"><img src="logo2.png" alt="Marca 2"></div>
+      <div class="carousel-item"><img src="logo3.png" alt="Marca 3"></div>
+      <div class="carousel-item"><img src="logo4.png" alt="Marca 4"></div>
+      <div class="carousel-item"><img src="logo5.png" alt="Marca 5"></div>
+      <div class="carousel-item"><img src="logo6.png" alt="Marca 6"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section fade-in" id="contato">
+  <h2>Chat com IA</h2>
+  <p>Converse com nosso assistente inteligente</p>
+
+  <div class="chat-container">
+    <div id="chat-messages" class="chat-messages"></div>
+    <div class="chat-input-container">
+      <input type="text" id="message-input" placeholder="Digite sua mensagem..." />
+      <button onclick="sendMessage()">Enviar</button>
+    </div>
+  </div>
+</section>
+
+<footer class="fade-in">
+  <div>
+    <h3>DITEC</h3>
+    <p>Transformando tecnologia em solução.</p>
+  </div>
+
+  <div>
+    <p>© 2026 - Todos os direitos reservados</p>
+  </div>
+</footer>
+
+<script>
+// animação ao rolar
+const elements = document.querySelectorAll('.fade-in');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add('show');
+    }
+  });
+});
+
+elements.forEach(el => observer.observe(el));
+
+const services = [
+  { title: 'Manutenção de Computadores', description: 'Diagnóstico completo, limpeza de hardware, formatação e otimização.', img: 'servico1.jpg' },
+  { title: 'Instalação de Redes', description: 'Projetos de redes cabeadas e Wi-Fi, cabeamento estruturado e segurança.', img: 'servico2.jpg' },
+  { title: 'Suporte Técnico', description: 'Atendimento remoto e presencial para resolução rápida de incidentes.', img: 'servico3.jpg' },
+  { title: 'Consultoria em TI', description: 'Planejamento estratégico, redução de custos e escolha de tecnologias.', img: 'servico4.jpg' },
+];
+
+const serviceSlider = document.getElementById('service-slider');
+const serviceImg = document.getElementById('service-img');
+const prevBtn = document.getElementById('service-prev');
+const nextBtn = document.getElementById('service-next');
+let currentServiceIndex = 0;
+
+const serviceTabs = document.querySelectorAll('.service-tabs .tab');
+
+function renderService(index) {
+  const cards = serviceSlider.querySelectorAll('.service-card');
+  cards.forEach((card, i) => {
+    card.classList.toggle('active', i === index);
+  });
+  serviceTabs.forEach((tab, i) => {
+    tab.classList.toggle('active', i === index);
+  });
+
+  // animação de transição de imagem
+  serviceImg.classList.add('fade-out');
+  setTimeout(() => {
+    serviceImg.setAttribute('src', services[index].img);
+    serviceImg.setAttribute('alt', services[index].title);
+    serviceImg.classList.remove('fade-out');
+  }, 220);
+}
+
+serviceTabs.forEach((tab) => {
+  tab.addEventListener('click', () => {
+    currentServiceIndex = Number(tab.getAttribute('data-index'));
+    renderService(currentServiceIndex);
+  });
+});
+
+prevBtn.addEventListener('click', () => {
+  currentServiceIndex = (currentServiceIndex - 1 + services.length) % services.length;
+  renderService(currentServiceIndex);
+});
+
+nextBtn.addEventListener('click', () => {
+  currentServiceIndex = (currentServiceIndex + 1) % services.length;
+  renderService(currentServiceIndex);
+});
+
+renderService(currentServiceIndex);
+
+// Chat com IA Inteligente (Simulada)
+const respostas = {
+  manutencao: {
+    keywords: ['manutença', 'computador', 'pc', 'notebook', 'reparo', 'conserto', 'formatação'],
+    resposta: 'Sim! Oferecemos manutenção completa de computadores e notebooks. 🖥️\n\nNossos serviços incluem:\n✓ Diagnóstico completo de hardware\n✓ Limpeza e remoção de poeira\n✓ Formatação e reinstalação de SO\n✓ Otimização de performance\n✓ Atualização de drivers\n\nPodemos atender na sua casa ou escritório. Agende um técnico!'
+  },
+  redes: {
+    keywords: ['rede', 'wifi', 'internet', 'conexão', 'lan', 'cabo', 'cabeamento'],
+    resposta: 'Somos especialistas em instalação de redes! 🌐\n\nO que fazemos:\n✓ Redes Wi-Fi de alta performance\n✓ Cabeamento estruturado\n✓ Instalação de switches e roteadores\n✓ Configuração de segurança\n✓ Cobertura para grandes áreas\n\nPodemos fazer um diagnóstico gratuito da sua conexão. Quer?'
+  },
+  suporte: {
+    keywords: ['suporte', 'ajuda', 'problema', 'erro', 'não funciona', 'bug', 'crash', 'lento'],
+    resposta: 'Temos suporte técnico 24/7! 🛠️\n\nComo funciona:\n✓ Atendimento remoto (mais rápido)\n✓ Suporte presencial em sua área\n✓ Resolução de problemas em minutos\n✓ Sem taxa mínima\n✓ Garantia de satisfação\n\nQual é seu problema? Posso ajudar!'
+  },
+  consultoria: {
+    keywords: ['consultoria', 'planejamento', 'estratégia', 'sistemas', 'software', 'infraestrutura'],
+    resposta: 'Oferecemos consultoria estratégica em TI! 📊\n\nNossos consultores analisam:\n✓ Sua infraestrutura atual\n✓ Oportunidades de economia\n✓ Melhores tecnologias para seu negócio\n✓ Segurança de dados\n✓ Modernização de sistemas\n\nVamos agendar uma reunião? É sem compromisso!'
+  },
+  preco: {
+    keywords: ['preço', 'valor', 'custa', 'quanto', 'tabela', 'orçamento'],
+    resposta: 'Nossos preços são competitivos! 💰\n\nDepende do tipo de serviço:\n✓ Manutenção básica: a partir de R$ 150\n✓ Instalação de redes: orçamos conforme projeto\n✓ Suporte técnico: valores horáriose mensais\n✓ Consultoria: estratégica por projeto\n\nMande suas especificações para um orçamento personalizado!'
+  },
+  agendamento: {
+    keywords: ['agendar', 'marcar', 'horário', 'quando', 'disponibilidade', 'agendamento'],
+    resposta: 'Agendamentos são super fáceis! 📅\n\nVocê pode:\n✓ Ligar para 11 9XXXX-XXXX\n✓ Enviar WhatsApp\n✓ Deixar email para contato\n\nAtendemos segunda a sexta 8h-18h\nEmergências aos sábados!\n\nQual forma é mais fácil pra você?'
+  },
+  domicilio: {
+    keywords: ['domicílio', 'casa', 'escritório', 'presencial', 'lá'],
+    resposta: 'Sim, fazemos atendimento a domicílio! 🏠\n\nNossas vantagens:\n✓ Técnico especializado na sua casa\n✓ Sem deslocamento para você\n✓ Equipamentos levamos com a gente\n✓ Atendimento ágil e profissional\n✓ Garantia de 30 dias\n\nAgende já sua visita!'
+  },
+  empresa: {
+    keywords: ['ditec', 'quem', 'sobre', 'experiência', 'anos'],
+    resposta: 'Somos a DITEC! 🎯\n\nEspecializados em:\n✓ Soluções em Tecnologia\n✓ Suporte Técnico Profissional\n✓ Manutenção de Equipamentos\n✓ Serviços de TI em Geral\n\nMissão: Oferecer soluções eficientes e inovadoras\nVisão: Ser referência em serviços de TI\n\nConfia em gente que entende!'
+  },
+  default: 'Ótima pergunta! 🤔\n\nNo momento estou treinado para ajudar com:\n→ Manutenção de computadores\n→ Instalação de redes\n→ Suporte técnico\n→ Consultoria em TI\n→ Agendamentos\n\nQual desses você tem interesse?'
+};
+
+function getRespostaIA(mensagem) {
+  const msg = mensagem.toLowerCase();
+  
+  for (const [chave, {keywords, resposta}] of Object.entries(respostas)) {
+    if (keywords.some(kw => msg.includes(kw))) {
+      return resposta;
+    }
+  }
+  
+  return respostas.default;
+}
+
+async function sendMessage() {
+  const input = document.getElementById('message-input');
+  const messagesDiv = document.getElementById('chat-messages');
+  const message = input.value.trim();
+
+  if (!message) return;
+
+  // Adiciona mensagem do usuário
+  const userDiv = document.createElement('div');
+  userDiv.className = 'message user-message';
+  userDiv.textContent = message;
+  messagesDiv.appendChild(userDiv);
+
+  input.value = '';
+  messagesDiv.scrollTop = messagesDiv.scrollHeight;
+
+  // Adiciona indicador de digitação
+  const typingDiv = document.createElement('div');
+  typingDiv.className = 'message ai-message typing';
+  typingDiv.innerHTML = '<span class="typing-dots"></span>';
+  messagesDiv.appendChild(typingDiv);
+
+  // Simula delay natural de resposta 
+  await new Promise(resolve => setTimeout(resolve, 1000 + Math.random() * 1000));
+
+  try {
+    const aiMessage = getRespostaIA(message);
+
+    // Remove indicador de digitação
+    messagesDiv.removeChild(typingDiv);
+
+    // Adiciona resposta da IA
+    const aiDiv = document.createElement('div');
+    aiDiv.className = 'message ai-message';
+    aiDiv.textContent = aiMessage;
+    messagesDiv.appendChild(aiDiv);
+    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+
+  } catch (error) {
+    console.error('Erro:', error);
+    const errorDiv = document.createElement('div');
+    errorDiv.className = 'message ai-message';
+    errorDiv.textContent = 'Desculpe, houve um erro. Tente novamente.';
+    messagesDiv.appendChild(errorDiv);
+  }
+}
+
+// Permite enviar com Enter
+document.getElementById('message-input')?.addEventListener('keypress', function(e) {
+  if (e.key === 'Enter') {
+    sendMessage();
+  }
+});
+
+// Mensagem automática ao carregar a página
+function mostrarMensagemAutomatica() {
+  const messagesDiv = document.getElementById('chat-messages');
+  
+  // Aguarda um pequeno delay para parecer natural
+  setTimeout(() => {
+    const boasVindas = document.createElement('div');
+    boasVindas.className = 'message ai-message welcome-message';
+    boasVindas.innerHTML = `
+      👋 <strong>Olá! Bem-vindo à DITEC!</strong><br><br>
+      Sou seu assistente inteligente de suporte. Posso ajudar com:<br>
+      • 🖥️ Manutenção de computadores<br>
+      • 🌐 Instalação de redes<br>
+      • 🛠️ Suporte técnico 24/7<br>
+      • 📊 Consultoria em TI<br><br>
+      <em>Como posso ajudá-lo hoje?</em>
+    `;
+    messagesDiv.appendChild(boasVindas);
+    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+  }, 500);
+}
+
+// Mostra mensagem quando a página carrega
+window.addEventListener('load', mostrarMensagemAutomatica);
+</script>
+
+</body>
+</html>
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #0f2140;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f2f6fb;
+}
+
+header {
+  position: relative;
+  min-height: 90vh;
+  overflow: hidden;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('image.png') no-repeat center/cover;
+  filter: brightness(0.55);
+  z-index: 1;
+}
+
+nav {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 150px;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+.logo-container  {
+  height: 150px;
+}
+
+nav ul {
+  display: flex;
+  gap: 28px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: auto; /* força o menu para a direita */
+}
+
+.logo-container img {
+  max-height: 150px;
+  display: block;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #65b2ff;
+}
+
+.hero {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* sobe o conteúdo */
+  text-align: center;
+  min-height: calc(90vh - 110px);
+  padding: 200px 20px 0; /* adiciona espaço superior */
+}
+
+.hero h1 {
+  margin: 0;
+  color: white;
+  font-size: clamp(2rem, 6vw, 4rem);
+  line-height: 1.1;
+  max-width: 760px;
+}
+
+.hero button {
+  margin-top: 24px;
+  font-size: 1rem;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 45px;
+  background: #2d8dfa;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hero button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(45, 141, 250, 0.35);
+}
+
+
+.section {
+  padding: 80px 32px;
+  max-width: 1180px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section h2 {
+  color: #113069;
+  font-size: 2.1rem;
+  margin-bottom: 16px;
+}
+
+.section p {
+  color: #5a6b8a;
+  max-width: 760px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.service-showcase .service-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.service-showcase .service-image {
+  border-radius: 20px;
+  overflow: hidden;
+  min-height: 280px;
+  background: transparent;
+  position: relative;
+}
+
+.image-stack {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+}
+
+.stack-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 14px 30px rgba(8, 30, 67, 0.15);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.bg1 { transform: translate(18px, 18px) scale(0.92); z-index: 1; }
+.bg2 { transform: translate(10px, 10px) scale(0.96); z-index: 2; }
+.main { z-index: 3;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.main.fade-out {
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+.service-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.service-tabs .tab {
+  border: 1px solid #dbe9fb;
+  background: #fff;
+  color: #1b3e70;
+  padding: 8px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.service-tabs .tab.active,
+.service-tabs .tab:hover {
+  background: #2d8dfa;
+  color: #fff;
+  border-color: #1e76d4;
+}
+
+.service-showcase .service-details {
+  background: #f8fbff;
+  border-radius: 20px;
+  border: 1px solid #e3ecf9;
+  padding: 24px;
+  box-shadow: 0 14px 30px rgba(8, 30, 67, 0.08);
+}
+
+.service-showcase .service-card {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.35s ease, max-height 0.35s ease, transform 0.35s ease;
+  transform: translateX(20px);
+}
+
+.service-showcase .service-card.active {
+  opacity: 1;
+  max-height: 220px;
+  transform: translateX(0);
+}
+
+.service-showcase .service-card h3 {
+  margin-top: 0;
+  color: #0f2140;
+  font-size: clamp(1.6rem, 2.4vw, 2rem);
+}
+
+.service-showcase .service-card p {
+  color: #566a8d;
+  line-height: 1.7;
+  margin-top: 12px;
+}
+
+.service-showcase .service-controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.service-showcase .service-controls button {
+  background: #2d8dfa;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  width: 46px;
+  height: 46px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.service-showcase .service-controls button:hover {
+  transform: scale(1.08);
+  background: #1a6ed6;
+}
+
+@media (max-width: 900px) {
+  .service-showcase .service-container {
+    grid-template-columns: 1fr;
+  }
+
+  .service-image {
+    min-height: 260px;
+  }
+}
+
+.service-showcase .service-details {
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #e3ecf9;
+  padding: 24px;
+  box-shadow: 0 14px 30px rgba(8, 30, 67, 0.08);
+}
+
+.service-showcase .service-slider {
+  min-height: 230px;
+}
+
+.service-showcase .service-card {
+  display: none;
+}
+
+.service-showcase .service-card.active {
+  display: block;
+}
+
+.service-showcase .service-card h3 {
+  margin-top: 0;
+  color: #0f2140;
+}
+
+.service-showcase .service-card p {
+  color: #5a6b8a;
+  line-height: 1.6;
+}
+
+.service-showcase .service-controls {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+}
+
+.service-showcase .service-controls button {
+  background: #2d8dfa;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  width: 46px;
+  height: 46px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.service-showcase .service-controls button:hover {
+  transform: scale(1.05);
+  background: #1a6ed6;
+}
+
+@media (max-width: 900px) {
+  .service-showcase .service-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 26px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 28px;
+  border-radius: 28px;
+  box-shadow: 0 14px 25px rgba(8, 30, 67, 0.08);
+  text-align: center;
+  border: 1px solid #e3ecf9;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #133062;
+}
+
+.card p {
+  color: #5f6f8f;
+  line-height: 1.7;
+}
+
+.card.hover:hover {
+  background: #2d8dfa;
+  color: rgb(255, 255, 255);
+  border-color: #2274cc;
+}
+
+.card.hover:hover h3,
+.card.hover:hover p {
+  color: rgb(255, 255, 255);
+}
+
+.dark-section {
+  background: linear-gradient(130deg, #0f294e, #1b3e70);
+  color: rgb(0, 0, 0);
+  border-radius: 32px; /* bordas arredondadas do retângulo azul */
+  overflow: hidden; 
+  margin-top: -40px; /* sobe a seção para mais próximo da anterior */
+  padding-top: 40px; /* mantém espaçamento interno confortável */
+}
+
+.dark-section h2 {
+  color: #f8fcff;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 22px;
+  flex-wrap: wrap;
+}
+
+.logo-carousel {
+  padding: 60px 24px;
+  background: #f2f6fb; /* mesmo fundo do body */
+}
+
+.service-home {
+  background: #ffffff;
+  padding: 60px 32px;
+  margin: 0 auto;
+}
+
+.service-home-container {
+  max-width: 1180px;
+  margin: 0 auto; /* centraliza e alinha com outras seções */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+}
+
+.service-home-image img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 14px 30px rgba(8, 30, 67, 0.15);
+}
+
+.service-home-text h2 {
+  margin-top: 0;
+  font-size: clamp(1.8rem, 2.5vw, 2.4rem);
+  color: #113069;
+}
+
+.service-home-text p {
+  color: #5d6f8d;
+  line-height: 1.75;
+  margin-bottom: 20px;
+}
+
+.service-home-text ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #415981;
+  margin: 0;
+}
+
+.service-home-text li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+  .service-home-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.logo-carousel h2 {
+  margin-bottom: 28px;
+  color: #113069;
+}
+
+.carousel-wrapper {
+  overflow: hidden;
+  padding: 0 10px;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 20px;
+  animation: slideLeft 16s linear infinite;
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  width: 180px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border-radius: 18px;
+  box-shadow: 0 4px 12px rgba(17, 41, 86, 0.12);
+  border: 1px solid transparent;
+}
+
+.carousel-item img {
+  max-width: 90%;
+  max-height: 70%;
+  object-fit: contain;
+}
+
+@keyframes slideLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.newsletter input {
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #cbe1f9;
+  min-width: 220px;
+}
+
+.newsletter button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  background: #1f77d4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background: #081d3f;
+  color: white;
+  padding: 50px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+footer h3 {
+  margin: 0 0 8px;
+}
+
+footer p {
+  margin: 0;
+  color: #aac1df;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 960px) {
+  nav {
+    padding: 18px 20px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .services-bar {
+    margin-top: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  header::before {
+    background-position: top center;
+  }
+
+  .hero {
+    min-height: 70vh;
+    padding: 0 16px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section {
+    padding: 55px 20px;
+  }
+
+  footer {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .chat-container {
+    height: 60vh;
+  }
+}
+
+/* Chat Styles */
+.chat-container {
+  max-width: 700px;
+  margin: 24px auto;
+  background: white;
+  border-radius: 16px;
+  border: 1px solid #e3ecf9;
+  box-shadow: 0 14px 30px rgba(8, 30, 67, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.chat-messages::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-messages::-webkit-scrollbar-track {
+  background: #f1f5fb;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+  background: #2d8dfa;
+  border-radius: 3px;
+}
+
+.message {
+  padding: 12px 16px;
+  border-radius: 12px;
+  max-width: 85%;
+  word-wrap: break-word;
+  line-height: 1.5;
+}
+
+.user-message {
+  background: #2d8dfa;
+  color: white;
+  align-self: flex-end;
+  border-bottom-right-radius: 4px;
+}
+
+.ai-message {
+  background: #f0f5fb;
+  color: #0f2140;
+  align-self: flex-start;
+  border-bottom-left-radius: 4px;
+  border: 1px solid #e3ecf9;
+}
+
+.ai-message.typing {
+  font-style: italic;
+  color: #5a6b8a;
+}
+
+.typing-dots {
+  display: inline-block;
+}
+
+.typing-dots::after {
+  content: '.';
+  animation: dots 1.5s infinite;
+}
+
+@keyframes dots {
+  0% { content: '.'; }
+  33% { content: '..'; }
+  66% { content: '...'; }
+}
+
+.ai-message.error {
+  background: #fee;
+  color: #c33;
+  border-color: #fcc;
+}
+
+.welcome-message {
+  background: linear-gradient(135deg, #2d8dfa 0%, #1a6ed6 100%);
+  color: white !important;
+  border: none !important;
+  font-weight: 500;
+  line-height: 1.6;
+  padding: 16px 14px;
+}
+
+.chat-input-container {
+  display: flex;
+  gap: 10px;
+  padding: 16px;
+  border-top: 1px solid #e3ecf9;
+  background: #f8fbff;
+}
+
+#message-input {
+  flex: 1;
+  padding: 12px 14px;
+  border: 1px solid #cbe1f9;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  resize: none;
+}
+
+#message-input:focus {
+  outline: none;
+  border-color: #2d8dfa;
+  box-shadow: 0 0 0 3px rgba(45, 141, 250, 0.1);
+}
+
+.chat-input-container button {
+  padding: 12px 20px;
+  background: #2d8dfa;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.chat-input-container button:hover {
+  background: #1a6ed6;
+}
+
+.chat-input-container button:active {
+  transform: scale(0.98);
+}
